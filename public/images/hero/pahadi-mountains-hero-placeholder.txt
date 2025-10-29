@@ -1,0 +1,4 @@
+<!-- This is a placeholder for the main hero image -->
+<!-- Replace with actual high-quality landscape image of Himalayan peaks -->
+<!-- Recommended: Panoramic view at 2000x800px, optimized for web -->
+PLACEHOLDER: Pahadi Mountains Hero Image

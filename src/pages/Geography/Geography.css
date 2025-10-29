@@ -1,0 +1,313 @@
+.geography-page {
+  margin-top: 70px;
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 1rem 2rem;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.tab:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.3);
+}
+
+.tab.active {
+  background: white;
+  color: #667eea;
+  transform: translateY(-2px);
+}
+
+.tab-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  margin-top: 2rem;
+}
+
+.region-overview {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #f39c12;
+}
+
+.region-overview h2 {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.overview-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.geography-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.geography-section h3 {
+  font-size: 2rem;
+  color: #e74c3c;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.5rem;
+}
+
+/* Mountains Grid */
+.mountains-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.mountain-card {
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.mountain-card:hover {
+  transform: translateY(-5px);
+}
+
+.mountain-card h4 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.elevation {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+/* Rivers Grid */
+.rivers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.river-card {
+  background: linear-gradient(145deg, #e3f2fd, #bbdefb);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border-left: 5px solid #2196f3;
+}
+
+.river-card h4 {
+  font-size: 1.3rem;
+  color: #1565c0;
+  margin-bottom: 0.5rem;
+}
+
+.source {
+  font-weight: 600;
+  color: #0d47a1;
+  margin-bottom: 0.8rem;
+}
+
+/* Climate Zones */
+.climate-zones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.climate-card {
+  background: linear-gradient(145deg, #fff3e0, #ffe0b2);
+  border-radius: 15px;
+  padding: 1.5rem;
+  border-left: 5px solid #ff9800;
+}
+
+.climate-card h4 {
+  font-size: 1.2rem;
+  color: #e65100;
+  margin-bottom: 1rem;
+}
+
+.climate-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.climate-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  font-weight: 600;
+  color: #bf360c;
+}
+
+.value {
+  color: #d84315;
+  font-weight: 500;
+}
+
+/* Tags and Lists */
+.glaciers-list,
+.parks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.glacier-tag {
+  background: linear-gradient(135deg, #29b6f6, #0277bd);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.park-tag {
+  background: linear-gradient(135deg, #66bb6a, #388e3c);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/* Biodiversity Section */
+.biodiversity-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.flora-section,
+.fauna-section {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.flora-section h4 {
+  color: #4caf50;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.fauna-section h4 {
+  color: #ff7043;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.species-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.species-tag {
+  padding: 0.6rem 1rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.species-tag.flora {
+  background: linear-gradient(135deg, #a5d6a7, #66bb6a);
+  color: white;
+}
+
+.species-tag.fauna {
+  background: linear-gradient(135deg, #ffab91, #ff7043);
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .geography-page {
+    padding: 2rem 0;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .tab-content {
+    padding: 1rem;
+  }
+  
+  .biodiversity-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .mountains-grid,
+  .rivers-grid,
+  .climate-zones {
+    grid-template-columns: 1fr;
+  }
+  
+  .tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tab {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}

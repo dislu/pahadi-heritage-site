@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Home",
+    "hotels": "Hotels",
+    "history": "History",
+    "geography": "Geography",
+    "events": "Events",
+    "touristPlaces": "Tourist Places",
+    "radio": "Radio",
+    "shaadi": "Matrimonial",
+    "festivals": "Festivals",
+    "about": "About"
+  },
+  "home": {
+    "title": "Discover the Majestic Pahadi Heritage",
+    "subtitle": "Explore the rich culture, stunning landscapes, and timeless traditions of Uttarakhand, Himachal Pradesh, and Nepal",
+    "bookYourStay": "Book Your Stay",
+    "explorePlaces": "Explore Places",
+    "servicesTitle": "Explore Our Services",
+    "services": {
+      "hotels": {
+        "title": "Hotels",
+        "description": "Find and book accommodations in beautiful mountain regions"
+      },
+      "history": {
+        "title": "History",
+        "description": "Discover the rich tribal heritage and cultural traditions"
+      },
+      "geography": {
+        "title": "Geography",
+        "description": "Explore diverse landscapes and geographical features"
+      },
+      "events": {
+        "title": "Events",
+        "description": "Upcoming cultural festivals and community celebrations"
+      },
+      "touristPlaces": {
+        "title": "Tourist Places",
+        "description": "Must-visit destinations and hidden gems"
+      },
+      "radio": {
+        "title": "Radio",
+        "description": "Traditional folk music and cultural programs"
+      },
+      "shaadi": {
+        "title": "Matrimonial",
+        "description": "Marriage services for Pahadi communities"
+      },
+      "festivals": {
+        "title": "Festivals",
+        "description": "Traditional celebrations and their cultural significance"
+      }
+    },
+    "regionsTitle": "Explore Regions",
+    "regions": {
+      "uttarakhand": {
+        "name": "Uttarakhand",
+        "description": "The Devbhoomi (Land of Gods) where sacred Himalayan peaks meet holy rivers like Ganga and Yamuna. This land is blessed with ancient temples, spiritual centers, and rich Garhwali-Kumaoni culture.",
+        "features": ["Ganga Aarti", "Char Dham Yatra", "Garhwali Culture", "Himalayan Trekking"]
+      },
+      "himachal": {
+        "name": "Himachal Pradesh",
+        "description": "The land of snow-capped mountains where apple orchards meet green valleys. Himachal is famous for its vibrant hill culture, colorful traditional attire, and warm hospitality.",
+        "features": ["Apple Orchards", "Hill Culture", "Adventure Sports", "Buddhist Monasteries"]
+      },
+      "nepal": {
+        "name": "Nepal",
+        "description": "Home of Mount Everest and birthplace of Buddha, where Hindu and Buddhist traditions have flourished together for centuries. Nepal is known for its rich Sherpa culture and unique mountain heritage.",
+        "features": ["Prayer Flags", "Sherpa Culture", "Everest Base Camp", "Kathmandu Heritage"]
+      }
+    }
+  },
+  "about": {
+    "title": "About Pahadi Heritage",
+    "mission": "Our Mission",
+    "missionText": "Pahadi Heritage is dedicated to preserving and promoting the rich cultural traditions, history, and natural beauty of the Pahadi regions - Uttarakhand, Himachal Pradesh, and Nepal.",
+    "whatWeDo": "What We Do",
+    "services": [
+      "Document and share tribal history and cultural heritage",
+      "Connect travelers with authentic mountain accommodations",
+      "Help Pahadi communities find life partners within their culture",
+      "Promote traditional festivals and cultural events",
+      "Preserve folk music and oral traditions",
+      "Guide visitors to explore geographical and cultural sites"
+    ]
+  },
+  "hotels": {
+    "title": "Hotel Booking",
+    "subtitle": "Discover amazing hotels in the beautiful Pahadi regions",
+    "searchPlaceholder": "Search hotels...",
+    "allRegions": "All Regions",
+    "cityPlaceholder": "City",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price",
+    "search": "Search",
+    "featured": "Featured Hotels",
+    "allHotels": "All Hotels",
+    "noResults": "No hotels found for the selected criteria.",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now"
+  },
+  "events": {
+    "title": "Upcoming Events & Celebrations",
+    "subtitle": "Join the vibrant cultural festivals, religious ceremonies, and community celebrations across the Himalayan regions",
+    "allRegions": "All Regions",
+    "filterByType": "Filter by Type",
+    "filterByMonth": "Filter by Month",
+    "allTypes": "All Types",
+    "festivals": "Festivals",
+    "cultural": "Cultural",
+    "religious": "Religious",
+    "sports": "Sports",
+    "upcoming": "Upcoming Events",
+    "allEvents": "All Events",
+    "date": "Date",
+    "location": "Location",
+    "region": "Region",
+    "price": "Price",
+    "organizer": "Organizer",
+    "viewDetails": "View Details",
+    "register": "Register",
+    "noEvents": "No events found for the selected criteria."
+  },
+  "regions": {
+    "uttarakhand": "Uttarakhand",
+    "himachal": "Himachal Pradesh",
+    "nepal": "Nepal"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "readMore": "Read More",
+    "contactUs": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "address": "Address",
+    "language": "Language",
+    "switchToEnglish": "Switch to English",
+    "switchToHindi": "हिंदी में बदलें"
+  }
+}
